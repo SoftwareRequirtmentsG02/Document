@@ -20,10 +20,8 @@
 	    <!-- Style customizer (Remove these two lines please) -->
 	    <link rel="stylesheet" href="css/style-customizer.css">
 	    <link rel="stylesheet" href="css/shortcode/procss.css" />
-	    <link rel="stylesheet" href="css/projcsss/st-proj1css.css" />
 	    
 	    <link href="#" data-style="styles" rel="stylesheet">
-	    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 	    
 	    <!-- Modernizr JS -->
 	    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -33,40 +31,6 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->  
     <!-- Body main wrapper start -->
-    	
-    	<div class="Message" id="tanchuang">
-			<div class="Message-icon">
-				<i class="fa fa-bell-o"></i>
-			</div>
-			<div class="Message-body">
-				<p>Which character do you want to apply for in the project?</p>
-				<select>
-					<option value="0">Programmer</option>
-    				<option value="1">Tester</option>
-    				<option value="2">Writer</option>
-				</select>
-				<button class="Message-button js-messageClose" id="buth">OK</button>
-			</div>
-			<button class="Message-close js-messageClose"><i class="fa fa-times"></i></button>
-		</div>
-		<script type="text/javascript">
-			window.onload = function() {
-				var btn = document.getElementById('btnn');
-				var flt = document.getElementById('tanchuang');
-				btn.onclick = function() {
-					event.cancelBubble = true;
-					var x = btn.offsetLeft - 800 + 'px';
-					var y = btn.offsetTop  + 'px';
-					flt.style.top = y;
-					flt.style.left = x;
-					flt.style.display = 'flex';
-				}
-				document.onclick = function() {
-					flt.style.display = 'none';
-				}
-			}
-		</script>
-    
 	    <div class="wrapper">
 	        <!-- Start of header area -->
 	        <header class="header-area">
@@ -122,17 +86,16 @@
 	                    <div class="row">
 	                        <div class="col-md-4 col-sm-12 col-xs-12">
 	                            <div class="logo">
-	                                <a href="index2.html"><img src="images/logo/logo2.jpg" alt=""> </a>
+	                                <a href="teacher-index.html"><img src="images/logo/logo2.jpg" alt=""> </a>
 	                            </div>
 	                        </div>
 	                        <div class="col-md-8 hidden-sm hidden-xs">
 	                            <div class="menu-area f-right">
 	                                <nav>
 	                                     <ul>
-	                                        <li><a href="index2.html">HOME</a></li>
-	                                        <li><a href="doc.html">DOCUMENTATION</a></li>
-											<li><a href="proj_0.html">PROJECT</a></li>
-											<li><a href="zone.html">PERSONAL ZONE</a></li>
+	                                        <li><a href="tourists-index.html">HOME</a></li>
+	                                        <li><a href="tourists-doc.html">DOCUMENTATION</a></li>
+											<li><a href="tourists-project.html">PROJECT</a></li>
 											<!--<li><a href="page.html">PAGE</a></li>
 	                                        <li><a href="contact.html">CONTACT</a></li>-->
 	                                    </ul>
@@ -284,15 +247,6 @@
 	            </div>
 	        </div>
 		    
-		    <div class="daohang">
-		    	<div class="yuan">
-		    		<p>+</p>
-		    	</div>
-		    	<div class="lan">
-		    		<p><a href="index2.html">Home</a> > <a href="proj_0.html">Project</a> > <a href="proj.html">Project List</a></p>
-		    	</div>
-		    </div>
-		    
 		    <div class="projmessage">
 		    	<div class="proleft">
 		    		<nav id="promenuname">
@@ -326,11 +280,11 @@
 											</div>
 											<ul class="d-secondDrop s-secondDrop">
 												<li class="s-thirdItem">
-													<a href="proj.html">Hollow Knight</a>
+													<a href="#">Hollow Knight</a>
 												</li>
 												<li class="s-thirdItem">
-													<a href="st-proj1.html">Dragon Quest</a>
-												</li>
+													<a href="#">Dragon Quest</a>
+												</li> 
 											</ul>
 										</li>
 										<li>
@@ -341,16 +295,16 @@
 											</div>
 											<ul class="d-secondDrop s-secondDrop">
 												<li class="s-thirdItem">
-													<a href="proj.html">Fire Emblem</a>
+													<a href="#">Fire Emblem</a>
 												</li>
 												<li class="s-thirdItem">
-													<a href="proj.html">Super Mario Bros</a>
+													<a href="#">Super Mario Bros</a>
 												</li>
 												<li class="s-thirdItem">
-													<a href="proj.html">MapleStory</a>
+													<a href="#">MapleStory</a>
 												</li>
 												<li class="s-thirdItem">
-													<a href="proj.html">The Elder Scrolls</a>
+													<a href="#">The Elder Scrolls</a>
 												</li>
 											</ul>
 										</li>
@@ -418,7 +372,9 @@
 				    		<li>Parent case</li>
 		    			</ul>
 		    		</nav>
-		    		<button id="btnn">APPLY</button>
+		    		<a href="#" class="butt">
+		    			<button>Detailed Information</button>
+		    		</a>
 		    	</div>
 		    	<div class="proright2">
 		    		<nav id="promenu2">
