@@ -73,10 +73,6 @@
 	margin-top: 30px;
 }
 
-.proright button{
-	margin-left: 670px;
-}
-
 /*erjicaidan*/
 
 .s-side{
@@ -198,11 +194,19 @@
 	margin-left: 50px;
 }
 
+.detbut{
+	margin-left: 670px;
+	background-color: #BBBBBB;
+}
+
 .delbut{
 	margin-top: 10px;
+	margin-left: 720px;
 	background-color: rgba(214,92,92,0.6);
 }
 
 .mobut{
 	margin-top: 10px;
+	margin-left: 700px;
+	background-color: #B2BFCA;
 }
